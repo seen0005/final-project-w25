@@ -189,13 +189,23 @@ h1{
     border-radius: 10px;
     object-fit: cover;
 }    
-}
+
 
 /*_____section-3______*/
 .behind-the-dough-text{
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/*_____section-4______*/
+.customer-quotes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
 }
 
 @media (min-width:960px){
